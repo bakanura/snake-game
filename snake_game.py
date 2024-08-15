@@ -18,7 +18,7 @@ def init_screen():
     
     game_h, game_w = sh - 2, sw - 2
 
-    # Enable resizing
+    # Enable screen resizing
     signal.signal(signal.SIGWINCH, handle_resize)
 
 def initialize_game():
