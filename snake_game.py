@@ -41,7 +41,7 @@ def initialize_game():
 def generate_food():
     global snake, sh, sw
     
-    # Use snake_level if defined, otherwise use 1
+    # Use snake_level if defined, otherwise use 1 or others
     current_level = snake_level if 'snake_level' in globals() else 1
     
     # Calculate the maximum distance based on the current level
